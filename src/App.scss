@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    162.69deg,
+    rgba(186, 251, 247, 0.900763) 11.88%,
+    #83cbff 53.12%,
+    #91cbc8 86.7%
+  );
+}
+
+.main-legend {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  line-height: 44px;
+  color: #1d229a;
+}
+
+.departure,
+.arrived {
+  width: 600px;
+  padding: 20px;
+  background: linear-gradient(
+    109.08deg,
+    rgba(255, 255, 255, 0.6) 31.2%,
+    rgba(236, 206, 206, 0) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.1));
+  border-radius: 20px;
+}
+.departure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bilets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  label {
+    margin-bottom: 10px;
+  }
+  select,
+  input {
+    background: #ffffff;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    &:focus,
+    &:active {
+      outline: 0;
+    }
+  }
+  select {
+    height: 50px;
+  }
+}
+
+.arrived {
+  justify-content: space-evenly;
+}
+
+.findBilets {
+  padding: 10px 50px;
+  background: #1d229a;
+  box-shadow: 0px 0px 40px rgba(24, 28, 136, 0.6);
+  border-radius: 20px;
+  outline: 0;
+  border: 0;
+  color: #ffffff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.login-form {
+  width: fit-content;
+  display: flex;
+  margin: auto;
+  margin-top: 150px;
+  flex-direction: column;
+  align-items: center;
+  background: #99cefa;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 50px 25px;
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    border-bottom: 2px solid #1d229a;
+    padding-bottom: 5px;
+
+    color: #1d229a;
+  }
+}
+
+.form-inputs {
+  width: 300px;
+  padding: 50px 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input {
+    border: 0;
+    width: 80%;
+    border-bottom: 1px solid black;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-size: 20px;
+    &:active,
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+.link-elem {
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.flights {
+  margin-top: 50px;
+}
+.arrived {
+  margin-bottom: 50px;
+}
+
+.bilet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.direction {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+  flex-direction: row;
+  background: #ffffff;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.add-info {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+}
+.bilet-item {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  div {
+    max-width: 10%;
+  }
+}
+
+.our-bilets {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.red {
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.nav-item {
+  color: #000000;
+  text-decoration: none;
+  font-size: 25px;
+}
